@@ -72,7 +72,8 @@ Acc@5: 89.76
 - finetune
 
 ```shell script
-0 : 488, 3477
+Conv 5-3 : 512 -> 488
+FC 6 : 4096 -> 3477
 
 Before Fine tune
 
@@ -81,7 +82,8 @@ Acc@5: 89.76
 
 After Fine tune
 
-Proceeding....
+Acc@1: 71.48
+Acc@5: 90.26
 ```
 
 ## Reference
